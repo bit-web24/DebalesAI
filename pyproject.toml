@@ -1,0 +1,20 @@
+[project]
+name = "debales-agent"
+version = "0.1.0"
+description = "Debales AI assistant using LangGraph, RAG, and SerpApi"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langgraph",
+    "langchain",
+    "langchain-community",
+    "langchain-ollama",
+    "langchain-chroma",
+    "chromadb",
+    "beautifulsoup4",
+    "lxml",
+    "google-search-results",
+    "python-dotenv",
+    "langchain-text-splitters>=1.1.2",
+]
+
